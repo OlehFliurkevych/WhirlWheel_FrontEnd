@@ -1,0 +1,149 @@
+@font-face{
+    font-family: "GilroyLight";
+    src: url(../fonts/Gilroy-Light.otf);
+}
+
+@font-face{
+    font-family: "GilroyExtraBold";
+    src: url(../fonts/gilroy-extrabold.otf);
+}
+
+.navbar{
+/*    border-top: 14px solid #2e2e2d ; */
+    background: linear-gradient(to bottom, rgba(46, 46, 45,1),rgba(46, 46, 45,0));
+    
+    font-size: 16px;
+    
+}
+
+body{
+    font-family: "GilroyLight";
+    font-size: 16px;
+}
+
+nav i{
+    color: white;
+}
+
+nav a{
+    color: white;
+}
+
+.navbar-header img {
+    height: 100%;
+}
+
+.navbar-brand img{
+    margin-left: 20%;
+}
+
+#myNavbar {
+    font-family: "GilroyLight";
+}
+
+#headerwrap{
+    margin-top: -160px;
+    padding-top: 20px;
+    background-image: url(../img/headerwrap.jpg);
+    background-repeat: no-repeat;
+/*    background-image: url(../img/headerwrap.jpg) no-repeat center top;*/
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+     background-size:100%;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    
+}
+
+#headerwrap .col-lg-8{
+    padding-left: 18%;
+    margin-top: 180px;
+     text-align: left;
+    color: #ffff;
+    font-size: 55px;
+       font-family: "GilroyExtraBold";
+}
+
+#headerwrap #wheel{
+    text-align: left;
+    color: #f74d12;
+    font-size: 55px;
+    font-family: "GilroyExtraBold";
+}
+
+#headerwrap .col-lg-4{
+    margin-top: 200px;
+}
+
+#headerwrap .col-lg-4 select{
+    border-radius: 3px;
+}
+
+#concerns{
+    padding-top: 10%;
+    background-image: url(../img/volkswagen.jpg);
+    min-height: 600px;
+    width: 100%;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    background-size:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+}
+
+.nameOfConcern{
+    font-size: 38px;
+    font-family: "GilroyExtraBold";
+}
+
+.text p{
+    text-align: left;
+    color: white;
+}
+
+#group{
+    color:#f74d12;
+}
+
+#news{
+    background-image: url(../img/audi.png);
+    min-height: 600px;
+    width: 100%;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    background-size:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+}
+
+
+
+#news .container-fluid .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#news .container-fluid .row .col-lg-3{
+    background-color: rgba(46, 46, 45,0.3);
+    color: white;
+}
+
+
+#concerns .emblem img{
+    width: 100%;
+}
+
+
