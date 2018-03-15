@@ -21,20 +21,22 @@ body{
     font-size: 16px;
 }
 
-nav i{
-    color: white;
-}
 
-nav a{
-    color: white;
+a:hover,a:focus{
+    text-decoration: none;
+    outline: 0;             
 }
 
 .navbar-header img {
     height: 100%;
 }
 
-.navbar-brand img{
-    margin-left: 20%;
+#myNavbar a{
+    color: white;
+}
+
+#myNavbar li:hover{
+    background: #f74d12;
 }
 
 #myNavbar {
@@ -42,6 +44,8 @@ nav a{
 }
 
 #headerwrap{
+    position:static;
+    font-family: "GilroyLight";
     margin-top: -160px;
     padding-top: 20px;
     background-image: url(../img/headerwrap.jpg);
@@ -84,8 +88,10 @@ nav a{
 }
 
 #concerns{
+    font-family: "GilroyLight";
     padding-top: 10%;
-    background-image: url(../img/volkswagen.jpg);
+    background-image: 
+        url(../img/volkswagen.jpg);
     min-height: 600px;
     width: 100%;
     text-align: center;
@@ -114,6 +120,7 @@ nav a{
 }
 
 #news{
+    font-family: "GilroyLight";
     background-image: url(../img/audi.png);
     min-height: 600px;
     width: 100%;
@@ -130,20 +137,46 @@ nav a{
 
 
 
-#news .container-fluid .row{
+#news .container .newsRow{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-#news .container-fluid .row .col-lg-3{
-    background-color: rgba(46, 46, 45,0.3);
+#news .container .row .col-md-3{
+    background-color: rgba(46, 46, 45,0.6);
     color: white;
+    margin-top:100px;
+    margin-bottom: 100px;
 }
 
+#news p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "GilroyLight";
+}
+
+#news a{
+    text-decoration: none;
+    font-family: "GilroyLight";
+    color: #f74d12;
+}
 
 #concerns .emblem img{
     width: 100%;
 }
 
-
+footer{
+    background-image: url(../img/porshe.jpg);
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    background-size:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+}
