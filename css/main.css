@@ -180,3 +180,8 @@ footer{
     -webkit-background-size:cover;
     -o-background-size:cover;
 }
+
+footer img{
+    height: 150px;
+    width: 100%;
+}
