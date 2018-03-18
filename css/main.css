@@ -94,51 +94,34 @@ a:hover,a:focus{
 
 #concerns{
     font-family: "GilroyLight";
-    padding-top: 10%;
-/*
-    background-image: 
-        url(../img/volkswagen.jpg);
-*/
     min-height: 200px;
     width: 100%;
     text-align: center;
-    background-attachment: relative;
-    background-position: center center;
-    background-size:100%;
-    background-size:cover;
-    background-repeat: no-repeat;
-    
-    -webkit-background-size:cover;
-    -o-background-size:cover;
 }
 
-.sl_item h3{
-    margin-top: 0px;
-}
+/*стилі для каруселі*/
 
-.sl_item{
+.sl_slide{
     position: relative;
+    
 }
 
-.sl_text h3{
-    position: absolute;
-    bottom: 0;
-    color: green;
-}
-
-.nameOfConcern{
-    font-size: 38px;
-    font-family: "GilroyExtraBold";
-}
-
-.text p{
-    text-align: left;
+.sl_concern{
     color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0);
 }
 
-#group{
-    color:#f74d12;
+
+#concerns .col-lg-8 .sl_text{
+    position:absolute;
+    bottom: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0);
+    text-align: center;
 }
+
+
 
 #news{
     font-family: "GilroyLight";
