@@ -58,8 +58,8 @@ a:hover,a:focus{
 /*    background-image: url(../img/headerwrap.jpg) no-repeat center top;*/
     text-align: center;
     background-attachment: relative;
-    background-position: center center;
-    min-height: 500px;
+    background-position: center;
+    min-height: 600px;
     width: 100%;
      background-size:100%;
     -webkit-background-size:cover;
@@ -92,9 +92,14 @@ a:hover,a:focus{
     border-radius: 3px;
 }
 
-#concerns{
+#headerwrap .col-xs-6{
+    margin-top: 20px;
+}
+
+.sl{
     font-family: "GilroyLight";
     min-height: 200px;
+    max-height: 700px;
     width: 100%;
     text-align: center;
 }
@@ -106,21 +111,45 @@ a:hover,a:focus{
     
 }
 
-.sl_concern{
-    color: white;
+.sl_link .sl_concern{
+    font-family: "GilroyExtraBold";
+    color: #f74d12;
+    font-size: 25px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0);
 }
 
 
-#concerns .col-lg-8 .sl_text{
+
+
+.sl_link .text{
     position:absolute;
-    bottom: 50%;
+    bottom: 35%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0);
     text-align: center;
 }
 
+
+
+.slick-prev , .slick-next{
+    z-index: 1001;
+    width: 32px;
+    height: 32px;
+}
+
+.slick-prev:before , .slick-next:before{
+    font-size: 35px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.slick-prev{
+    left: 25px;
+}
+
+.slick-next{
+    right: 25px;
+}
 
 
 #news{
@@ -141,13 +170,13 @@ a:hover,a:focus{
 
 
 
-#news .container .newsRow{
+#news .container-fluid .newsRow{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#news .container .row .col-md-3{
+#news .container-fluid .row .col-md-3{
     background-color: rgba(46, 46, 45,0.6);
     color: white;
     margin-top:100px;
@@ -155,9 +184,10 @@ a:hover,a:focus{
 }
 
 #news p{
+    color: #f74d12;
     margin-top: 10px;
-    font-size: 20px;
-    font-family: "GilroyLight";
+    font-size: 22px;
+    font-family: "GilroyExtraBold";
 }
 
 #news a{
