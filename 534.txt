@@ -100,7 +100,7 @@ a:hover,a:focus{
     text-align: center;
 }
 
-/*СЃС‚РёР»С– РґР»СЏ РєР°СЂСѓСЃРµР»С–*/
+/*стилі для каруселі*/
 
 .sl_slide{
     position: relative;
@@ -124,30 +124,27 @@ a:hover,a:focus{
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0);
     text-align: center;
-    z-index: 1001;
 }
 
 
 
 .slick-prev , .slick-next{
+    z-index: 1001;
     width: 32px;
     height: 32px;
-    z-index: 1001;
 }
 
 .slick-prev:before , .slick-next:before{
     font-size: 35px;
     text-shadow: 2px 2px 2px black;
-    margin-right: 50px;
-    z-index: 1001;
 }
 
 .slick-prev{
-    left: 20%;
+    left: 25px;
 }
 
 .slick-next{
-    right: 20%;
+    right: 25px;
 }
 
 

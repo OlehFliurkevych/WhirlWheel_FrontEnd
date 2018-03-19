@@ -1,6 +1,6 @@
 .sl_link .text{
     position:absolute;
-    bottom: 25%;
+    bottom: 15%;
     background: rgba(0, 0, 0, 0.5);
     color: white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0);
@@ -8,25 +8,11 @@
 }
 
 .slick-prev{
-    left: 15px;
+    left: 5px;
 }
 
 .slick-next{
-    right: 15px;
+    right: 5px;
 }
 
-/*
-#headerwrap #formInHeaderwrap{
-     margin-top: 10px;
-}
-*/
 
-/*
-#headerwrap .form{
-    padding-left: 18%;
-    margin-top: 50px;
-     text-align: left;
-    color: #ffff;
-    font-size: 55px;
-       font-family: "GilroyExtraBold";
-}*/
