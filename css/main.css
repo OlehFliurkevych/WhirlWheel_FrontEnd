@@ -15,8 +15,9 @@ h3{
 
 .navbar{
 /*    border-top: 14px solid #2e2e2d ; */
-    background: linear-gradient(to bottom, rgba(46, 46, 45,1),rgba(46, 46, 45,0));
+/*    background: linear-gradient(to bottom, rgba(46, 46, 45,1),rgba(46, 46, 45,0));*/
     
+        
     font-size: 16px;
     
 }
@@ -32,9 +33,11 @@ a:hover,a:focus{
     outline: 0;             
 }
 
-.navbar-header img {
+.navbar-brand img{
     height: 100%;
 }
+
+
 
 #myNavbar a{
     color: white;
@@ -65,6 +68,7 @@ a:hover,a:focus{
     -webkit-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
+    margin-right: 0px;
     
 }
 
@@ -199,8 +203,9 @@ a:hover,a:focus{
     width: 100%;
 }
 
+/*
 footer{
-    background-image: url(../img/porshe.jpg);
+    background-image: url(../img/footer2.jpg);
     min-height: 300px;
     width: 100%;
     text-align: center;
@@ -213,8 +218,63 @@ footer{
     -webkit-background-size:cover;
     -o-background-size:cover;
 }
+*/
 
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+.bg-lightgray
+{
+    font-size: 15px;
+    font-family: "GilroyLight";
+    color: white;
+    background-color: #2d2d2d;
+}
 
+#adminForm{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px #2d2d2d;
+}
 
+/*Panel tabs*/
+.panel-tabs {
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
 
+.panel-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
 
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .23);
+    border-bottom-color: transparent;
+}
