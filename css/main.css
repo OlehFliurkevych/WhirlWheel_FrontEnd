@@ -226,7 +226,10 @@ footer{
     font-size: 15px;
     font-family: "GilroyLight";
     color: white;
-    background-color: #2d2d2d;
+    background-image: url(../img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    background-color: #2d2d2d;*/
 }
 
 #adminForm{
@@ -278,3 +281,4 @@ footer{
     background-color: rgba(255,255,255, .23);
     border-bottom-color: transparent;
 }
+
